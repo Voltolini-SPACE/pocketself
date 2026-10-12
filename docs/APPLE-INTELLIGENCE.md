@@ -20,7 +20,7 @@ Validado no iPhone 17 Pro Max (iOS 26.6.1, Apple Intelligence ligado), `evidence
 - benchmark: 1ª palavra 1,04 s a frio e 0,27 s a quente, ~32 MB de memória do app (`pocketself-apple.log`); a Apple entrega *atualizações cumulativas*, então não há tok/s comparável;
 - criar imagem com o Apple Intelligence ligado: gerada em 5,1 s (`imagem-apple-intelligence-ativo.log`; antes de ligar: «este aparelho não suporta»).
 
-**Limites atuais:** o motor Apple responde **só texto**: não chama ferramentas (agenda, lembrete, mensagens…). Quando você pede uma ação com ele selecionado, o app avisa «nada foi preparado» e sugere trocar para um motor local. A sessão é nova a cada turno (o histórico recente vai no prompt). Falta: ferramentas pelo framework (`Tool`), alternância automática por capacidade e uso de `@Generable` para saída estruturada.
+**Ferramentas (novo, em validação):** o motor Apple passa a receber as mesmas ferramentas dos motores locais (lembrete, agenda, mensagem, lanterna, SOS, GPS…), convertidas para `Tool` do Foundation Models com esquema dinâmico, e com as mesmas confirmações na tela. Se ele não chamar a ferramenta num pedido de ação, o app avisa «nada foi preparado». A sessão é nova a cada turno (o histórico recente vai no prompt). Falta: ferramentas pelo framework (`Tool`), alternância automática por capacidade e uso de `@Generable` para saída estruturada.
 
 ## Limites que não mudamos
 O PocketSelf **não** acessa a Siri, a memória privada do Apple Intelligence nem outros apps além das APIs e permissões oficiais. Ele integra por App Intents/Atalhos e Foundation Models quando disponíveis.

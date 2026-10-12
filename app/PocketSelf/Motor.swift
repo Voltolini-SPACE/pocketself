@@ -53,7 +53,7 @@ final class Motor {
         MotorInfo(id: "gemma-4-e4b", nome: "Gemma 4 E4B", esforco: "Profundo", pasta: "gemma-4-e4b-it-4bit",
                   descricao: "Gemma maior; também vê imagens. Pede iPhone com 12 GB de memória.", requisito: "~5,1 GB em disco · 12 GB de RAM", onde: "neste iPhone", ferramentas: true),
         MotorInfo(id: "apple", nome: "Apple Intelligence", esforco: "Nativo", pasta: nil,
-                  descricao: "O modelo de linguagem da Apple, no aparelho e sem download. Por ora só conversa (não executa ações).", requisito: "iOS 26+, Apple Intelligence ligado", onde: "neste iPhone", ferramentas: false),
+                  descricao: "O modelo de linguagem da Apple, no aparelho e sem download. Usa as mesmas ferramentas e confirmações dos outros motores.", requisito: "iOS 26+, Apple Intelligence ligado", onde: "neste iPhone", ferramentas: true),
         MotorInfo(id: "spark", nome: "Servidor opcional", esforco: "Máximo", pasta: nil,
                   descricao: "Um modelo grande em um servidor seu (API compatível com OpenAI). Libera a memória do iPhone; as ferramentas continuam rodando no iPhone.", requisito: "configure em Ajustes › Motor › Servidor opcional", onde: "no seu servidor", ferramentas: true),
     ]
@@ -325,7 +325,12 @@ final class Motor {
                         instrucoes: instrucoes(voz: porVoz),
                         mensagens: conversa.mensagens.filter { $0.nota != true }.map { Spark.Msg(role: $0.deNEO ? "assistant" : "user", content: $0.texto) }, pedido: texto)
                     memoria?.marcarUso()
-                    try await AppleIA.transmitir(historico) { parte in
+                    let nomes = semFerramentas ? [] : ferramentasPara(decisao)
+                    let esquemas = ferramentas.esquemas.filter { nomes.contains((($0["function"] as? [String: any Sendable])?["name"] as? String) ?? "") }
+                    let ferr = ferramentas
+                    try await AppleIA.transmitir(historico, ferramentas: esquemas, executar: { nome, args in
+                        try await ferr.executar(ToolCall(function: .init(name: nome, arguments: args)))
+                    }) { parte in
                         if tPrimeiro == 0 { tPrimeiro = Date.timeIntervalSinceReferenceDate; self.primeiraPalavraMs = (tPrimeiro - t0) * 1000 }
                         self.saida += parte; self.tokens += 1
                         let dt = Date.timeIntervalSinceReferenceDate - tPrimeiro
@@ -337,8 +342,8 @@ final class Motor {
                     if Task.isCancelled || error is CancellationError { interrompida = true } else { interrompida = !saida.isEmpty; erro = "A Apple Intelligence não respondeu: \(error.localizedDescription)" }
                 }
                 let acoesApple: Set<Intencao> = [.agenda_criar, .lembrete, .apps, .contato, .memoria]
-                if !interrompida, erro == nil, decisao.confiavel, acoesApple.contains(decisao.classe) {
-                    saida += "\n\n⚠️ O motor Apple Intelligence ainda não executa ações: nada foi preparado. Troque para um motor local em Ajustes › Motor de IA."
+                if !interrompida, erro == nil, decisao.confiavel, acoesApple.contains(decisao.classe), ferramentas.ultimaChamada.isEmpty {
+                    saida += "\n\n⚠️ Nada foi preparado de verdade: nenhuma ação foi criada. Peça de novo de forma direta."
                 }
                 ferramentas.aoIniciarChamada = nil
                 gerando = false

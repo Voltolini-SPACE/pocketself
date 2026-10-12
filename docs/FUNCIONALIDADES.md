@@ -29,9 +29,10 @@ Atualizado em 2026-10-12. **Níveis de prova** (do mais fraco ao mais forte): `C
 | Visual | Nova marca, cores «Bolso» (4 destaques), cartões de ações rápidas no chat | 🟡 | T+C | contraste WCAG conferido por script (`verificar-contraste.py`); layout **ainda não visto em aparelho** |
 | Controle | Agente XCUITest no iPhone (ver, decidir, agir em qualquer app) | 🟡 | A | tarefa «Ajustes › Geral › Sobre» concluiu no iPhone 17 Pro Max; no 15 Pro corrigimos o toque sob a barra de busca (teste de lógica 12/12), repetição no aparelho pendente — [CONTROLE-DO-IPHONE.md](CONTROLE-DO-IPHONE.md) |
 | Controle | Barreira de irreversíveis (enviar, pagar, excluir, senha) | ✅ | T+A | `Logica.validar`; bloqueio validado ao vivo |
-| Apple | Foundation Models como motor selecionável (só texto, sem ferramentas) | ✅ | A | iPhone 17 Pro Max: 1ª palavra 0,74 s no chat; [APPLE-INTELLIGENCE.md](APPLE-INTELLIGENCE.md) |
+| Apple | Foundation Models como motor selecionável | ✅ | A | iPhone 17 Pro Max: 1ª palavra 0,74 s no chat; [APPLE-INTELLIGENCE.md](APPLE-INTELLIGENCE.md) |
 | Resgate | Sinal de SOS em Morse pela lanterna; localização por GPS sem internet | ✅ | T+A | iPhone 17: SOS 5× (~42 s); GPS ±8 m; `tests/ResgateTests.swift` |
 | Fidelidade | Mensagem/e-mail usam as palavras exatas do usuário quando o modelo as altera («chego»→«cheiro») | ✅ | T+A | `tests/FidelidadeTests.swift`; cena 38 no aparelho |
+| Apple | Ferramentas no motor Apple Intelligence (as mesmas do app, com as mesmas confirmações) | 🟡 | C | ponte `FerramentaApple` (esquema dinâmico); compila; validação no aparelho pendente |
 | Desempenho | Benchmark no aparelho (`--benchmark=` / Ajustes) e catálogo sem números de outro aparelho | ✅ | A | [BENCHMARK-IPHONE-17.md](BENCHMARK-IPHONE-17.md) |
 | Motor | Edge0 35B (app à parte, MoE com streaming de SSD) | 🟡 | A | 9,1 tok/s no 17 Pro Max; não embutido (exige ~20 GB livres) |
 | Reunião | Escuta contínua, transcrição longa no aparelho (SpeechAnalyzer, iOS 26), notas a cada minuto (pontos, decisões, tarefas, dúvidas), resumo final, salvar e compartilhar em Markdown | 🟡 | T+A | iPhone 17: áudio de 75 s transcrito no aparelho em 4,4 s (122 palavras, `evidence/reuniao/`); notas e resumo pelo motor e escuta ao vivo **ainda sem validação no aparelho** (o aparelho estava em uso); `tests/ReuniaoTests.swift` 13/13 |

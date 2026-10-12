@@ -59,7 +59,7 @@ Legenda: ✅ validado em aparelho · 🟡 parcial/experimental · 🔲 planejado
 | ✅ Mensagem · 🟡 contatos, e-mail, ligação, música, Atalhos | sempre com confirmação na tela |
 | ✅ Memória que você controla | o app propõe, você aprova |
 | ✅ Criar imagem (Image Playground) | exige Apple Intelligence ativo |
-| ✅ Apple Intelligence como motor de texto | selecionável em Ajustes; só conversa (sem ações) — [docs/APPLE-INTELLIGENCE.md](docs/APPLE-INTELLIGENCE.md) |
+| ✅ Apple Intelligence como motor de texto | selecionável em Ajustes; ferramentas e ações em validação — [docs/APPLE-INTELLIGENCE.md](docs/APPLE-INTELLIGENCE.md) |
 | ✅ Benchmark no seu aparelho | Ajustes › Motor › «Medir neste iPhone»; números do 17 Pro Max em [docs/BENCHMARK-IPHONE-17.md](docs/BENCHMARK-IPHONE-17.md) |
 | 🟡 Controle do iPhone (agente XCUITest no aparelho) | funciona; em validação — [docs/CONTROLE-DO-IPHONE.md](docs/CONTROLE-DO-IPHONE.md) |
 | 🟡 Servidor próprio opcional (modo «Máximo») | [docs/SERVIDOR-OPCIONAL.md](docs/SERVIDOR-OPCIONAL.md) |
