@@ -1,0 +1,8 @@
+{
+  "images" : [
+    { "filename" : "icone-claro.png", "idiom" : "universal", "platform" : "ios", "size" : "1024x1024" },
+    { "appearances" : [ { "appearance" : "luminosity", "value" : "dark" } ], "filename" : "icone-escuro.png", "idiom" : "universal", "platform" : "ios", "size" : "1024x1024" },
+    { "appearances" : [ { "appearance" : "luminosity", "value" : "tinted" } ], "filename" : "icone-escuro.png", "idiom" : "universal", "platform" : "ios", "size" : "1024x1024" }
+  ],
+  "info" : { "author" : "xcode", "version" : 1 }
+}

@@ -1,0 +1,14 @@
+2026-10-10T03:11:04Z
+[neo-decide] treinado exemplos=149 T=3.20 ECE=0.062 acertoCV=0.62 em 19 ms
+[neo] motor=Qwen3.5 4B carregado_em_s=2.2
+[neo-visao] linhas=0 rotulos= ms=403
+[neo-visao] gemma descreveu em 13.0 s: A imagem mostra um robô branco com olhos azuis e um sorriso, em um ambiente interno claro. O robô possui braços articulados e está sobre uma superfície de madei
+[neo-decide] classe=conversa p=0.56 ms=0.09 confiavel=0
+[neo] sessão nova conversa=0A313B41 mensagens=1 ferramentas=["agenda_criar", "agenda_listar", "buscar_contato", "criar_alarme", "criar_imagem", "criar_nota", "enviar_email", "enviar_mensagem", "estado_do_aparelho", "hora_e_data", "lembrar", "lembrete_criar", "ler_pagina", "ligar", "pesquisar_web", "rodar_atalho", "tocar_musica"]
+[neo] cache antes do turno: processados=-1
+[neo] turno tokens=70 primeira_ms=17028 tok_s=15.2 interrompida=0 decisao=conversa 0.56 · 0.1 ms
+[neo-decide] treinado exemplos=150 T=3.20 ECE=0.047 acertoCV=0.62 em 44 ms
+[neo-decide] aprendeu classe=conversa origem=ferramenta total=150
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 9.

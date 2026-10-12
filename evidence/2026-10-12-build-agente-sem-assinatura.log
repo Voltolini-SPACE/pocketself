@@ -1,0 +1,572 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project PocketSelfAgente.xcodeproj -scheme PocketSelfAgente -destination generic/platform=iOS -derivedDataPath .build CODE_SIGNING_ALLOWED=NO build-for-testing
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (2 targets)
+    Target 'PocketSelfAgenteUITests' in project 'PocketSelfAgente'
+        ➜ Explicit dependency on target 'PocketSelfAgente' in project 'PocketSelfAgente'
+    Target 'PocketSelfAgente' in project 'PocketSelfAgente' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 376a02adf8558062cdfcd227c400a497
+Build description path: ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/XCBuildData/376a02adf8558062cdfcd227c400a497.xcbuilddata
+CreateBuildDirectory ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules
+    cd ~/Documents/Voltolini/pocketself/agente-iphone/PocketSelfAgente.xcodeproj
+    builtin-create-build-directory ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules
+
+CreateBuildDirectory ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex
+    cd ~/Documents/Voltolini/pocketself/agente-iphone/PocketSelfAgente.xcodeproj
+    builtin-create-build-directory ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex
+
+CreateBuildDirectory ~/Documents/Voltolini/pocketself/agente-iphone/.build/CompilationCache.noindex
+    cd ~/Documents/Voltolini/pocketself/agente-iphone/PocketSelfAgente.xcodeproj
+    builtin-create-build-directory ~/Documents/Voltolini/pocketself/agente-iphone/.build/CompilationCache.noindex
+
+CreateBuildDirectory ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products
+    cd ~/Documents/Voltolini/pocketself/agente-iphone/PocketSelfAgente.xcodeproj
+    builtin-create-build-directory ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products
+
+CreateBuildDirectory ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex
+    cd ~/Documents/Voltolini/pocketself/agente-iphone/PocketSelfAgente.xcodeproj
+    builtin-create-build-directory ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKStatCaches.noindex/iphoneos27.0-24A430-e829b21a6f8c9b70876ba0858053c0446c78b3cbc238196c85e1bf6c792c5915.sdkstatcache
+    cd ~/Documents/Voltolini/pocketself/agente-iphone/PocketSelfAgente.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -o ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKStatCaches.noindex/iphoneos27.0-24A430-e829b21a6f8c9b70876ba0858053c0446c78b3cbc238196c85e1bf6c792c5915.sdkstatcache
+
+CreateBuildDirectory ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PrecompiledHeaders
+    cd ~/Documents/Voltolini/pocketself/agente-iphone/PocketSelfAgente.xcodeproj
+    builtin-create-build-directory ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PrecompiledHeaders
+
+CreateBuildDirectory ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd ~/Documents/Voltolini/pocketself/agente-iphone/PocketSelfAgente.xcodeproj
+    builtin-create-build-directory ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos
+    cd ~/Documents/Voltolini/pocketself/agente-iphone/PocketSelfAgente.xcodeproj
+    builtin-create-build-directory ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos
+
+CreateBuildDirectory ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd ~/Documents/Voltolini/pocketself/agente-iphone/PocketSelfAgente.xcodeproj
+    builtin-create-build-directory ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos
+    cd ~/Documents/Voltolini/pocketself/agente-iphone/PocketSelfAgente.xcodeproj
+    builtin-create-build-directory ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente-0f8b9001fcb78f6ab7bcd49be82d2cba-VFS-iphoneos/all-product-headers.yaml
+    cd ~/Documents/Voltolini/pocketself/agente-iphone/PocketSelfAgente.xcodeproj
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente-0f8b9001fcb78f6ab7bcd49be82d2cba-VFS-iphoneos/all-product-headers.yaml
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-own-target-headers.hmap (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-own-target-headers.hmap
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/ProductTypeInfoPlistAdditions.plist (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/ProductTypeInfoPlistAdditions.plist
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-project-headers.hmap (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-project-headers.hmap
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests.hmap (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests.hmap
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/empty-PocketSelfAgenteUITests.plist (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/empty-PocketSelfAgenteUITests.plist
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests.DependencyStaticMetadataFileList (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-generated-files.hmap (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-generated-files.hmap
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests.DependencyMetadataFileList (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests.DependencyMetadataFileList
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-all-target-headers.hmap (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-all-target-headers.hmap
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-all-non-framework-target-headers.hmap (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.SwiftFileList (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.SwiftFileList
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests_const_extract_protocols.json (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests_const_extract_protocols.json
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.SwiftConstValuesFileList (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.SwiftConstValuesFileList
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.LinkFileList (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.LinkFileList
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests-OutputFileMap.json (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests-OutputFileMap.json
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente.hmap (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente.hmap
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/empty-PocketSelfAgente.plist (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/empty-PocketSelfAgente.plist
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente.DependencyStaticMetadataFileList (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente.DependencyMetadataFileList (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente.DependencyMetadataFileList
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-project-headers.hmap (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-project-headers.hmap
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-own-target-headers.hmap (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-own-target-headers.hmap
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-generated-files.hmap (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-generated-files.hmap
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-all-target-headers.hmap (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-all-target-headers.hmap
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-all-non-framework-target-headers.hmap (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-DebugDylibPath-normal-arm64.txt (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-DebugDylibInstallName-normal-arm64.txt (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-DebugDylibInstallName-normal-arm64.txt
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.SwiftFileList (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.SwiftFileList
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente_const_extract_protocols.json (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente_const_extract_protocols.json
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.SwiftConstValuesFileList (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.SwiftConstValuesFileList
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.LinkFileList (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.LinkFileList
+
+WriteAuxiliaryFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente-OutputFileMap.json (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    write-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente-OutputFileMap.json
+
+MkDir ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    /bin/mkdir -p ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest
+
+MkDir ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    /bin/mkdir -p ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app
+
+Ld ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/__preview.dylib normal (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -F~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -install_name @rpath/PocketSelfAgente.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente_dependency_info.dat -o ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/__preview.dylib
+
+ProcessInfoPlistFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/Info.plist ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/empty-PocketSelfAgente.plist (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-infoPlistUtility ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/empty-PocketSelfAgente.plist -producttype com.apple.product-type.application -genpkginfo ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -requiredArchitecture arm64 -o ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/Info.plist
+
+SwiftDriver PocketSelfAgente normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PocketSelfAgente -Onone @~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -target arm64-apple-ios17.0 -g -module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -F ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -parse-as-library -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKStatCaches.noindex/iphoneos27.0-24A430-e829b21a6f8c9b70876ba0858053c0446c78b3cbc238196c85e1bf6c792c5915.sdkstatcache -output-file-map ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex -sdk-module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente_const_extract_protocols.json -Xcc -iquote -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-generated-files.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-own-target-headers.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-all-target-headers.hmap -Xcc -iquote -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-project-headers.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/include -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/DerivedSources-normal/arm64 -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/DerivedSources/arm64 -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente-Swift.h -working-directory ~/Documents/Voltolini/pocketself/agente-iphone -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_Builtin_float-8EKVZPURQ0XGR32PI5WEJT1BA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/DeveloperToolsSupport-7QF8MGMPSH3C1KXP9Y6SOCCCS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/ptrcheck-THYNLWN7RW51CWXRBA4ZTVQN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_SwiftConcurrencyShims-37KQ7I5997XQ2ZVZV5I8HJLG7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_Builtin_stdbool-AM9Y0PMQBTG9NHWBDMEG93K7V.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/ptrauth-E9BG88BLXU5UT0M4BXBJZZ723.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_Builtin_stddef-8VCQYNAZH1G6OPSJF62ZSTZIF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_Builtin_stdarg-Y66AROKBVKWRDV8VRRCONMNK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_AvailabilityInternal-AJBJJX9YP35Q4EFJMZYJUJ0MF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/SwiftShims-7M4FKCPISNIMLE9SSY3FY5CYP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_DarwinFoundation1-5VAO0AB1FZ6C8T3NHT2AE3ZH7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_Builtin_limits-1TRKPI0DZRMTE4NRSKAGVFC2O.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_DarwinFoundation2-2QMQJR2L7BRI7KPZYG1DN7GPN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_Builtin_tgmath-5J6PZKH75EUQMQ4ZFL77M2A9S.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/sys_types-A9X2MFTHMQES5HN6DGYLBZGFA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/string_h-DN7RNVPUNQ22GVTEP0VYVUTIY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_Builtin_stdint-1X2KKVP49OTZ08UJUMMGDLHKT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_DarwinFoundation3-C0P4GEMTD6436MVW5SMSUKT2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_Builtin_stdatomic-6964IL2ZDF705WNJ719WRL6XM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_Builtin_intrinsics-1RUD2E8JDB5GUXNRWZVHZE2LY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_Builtin_inttypes-AN6OLBSKW6QPJ4D8ETTWGEW58.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/Darwin-8GH1X0M9ULY4T63R8A4RD7J18.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/simd-5WKM7RTVKZMEGK3PY6L16QH6W.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/MachO-3LV1AX5MK0FI7XDM7HHXJV5WD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/ObjectiveC-9284BE2CZ056TEEF38J2FFP38.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/os_object-B08RB4ZARDT1OIPHI2L90WL2E.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/os_workgroup-5FCDGP559SP3JMAWS9EQDTWHK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/Spatial-48QEDY9XLD82UZ2BLLND5O0JM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/Dispatch-KBM65ITKGTZKTF83ENTRCT3L.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/CoreFoundation-1VGUGY50R66B3EZ9L7IUJOYT7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/XPC-EIV0PJ6EPUEDM0PN5QZNLR8G6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/os-72W0HV5XWDP0S1I2LS5GCB91H.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/CoreGraphics-EJW61GY18C5LM75U46G2IDIMQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/Security-75JCY0Y4ZHGEU89PPBZZYR1F2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/CFNetwork-EX6QFYTAUYWEJXVFSM9AOL6RJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/CoreAudioTypes-9V1OSU32HBUCVWU81V6CUK7S7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/CoreAudio-510G6PM2ED1OWFZJO3BUD987N.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/Foundation-3HD127V6A5W0HXPVY2G986W8O.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/CoreText-CNA1RWGNAIB83QVWBNV0IVVFM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/ImageIO-IE1P09FJ7F8NBQGDEHJEDC2W.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/_LocationEssentials-DGSH5XNKUVW0SJACBTC2K4YIP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/OSLog-2HTT5RM4DDE0T69UVVEAXMW9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/DataDetection-406P7J8WNCN3O5WMNKTFW0YXT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/Accessibility-AJT7UJWDNFH6SSZ55K4L443J7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/UserNotifications-BDUCOVGVFXGRVHRUH7CVJHP0L.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/FileProvider-7A97S209LAPWLDGW9MRWSDT3Y.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/UniformTypeIdentifiers-9GNKM1UF3EN5BQ9XK2R658GY7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/CoreData-AH7ZG6JG7OD8RW4QIW19PS114.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/IOSurface-7VC5FJZ1UYUCIZMIU2D2FX2Z4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/CoreTransferable-42Q8PNFE6CIILV6AFWIIT4JP1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/Symbols-DW10Q879WWKCNO9SSE6NCUPWF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/UIUtilities-ADFAY4KU30CUHEWFK7BCSND7C.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/CoreLocation-1J4VSGMAPRCQS7D78HB9775IH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/Metal-8G3H6E8PNTAF6H1O27JRFHVUT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/OpenGLES-10W8WOQFMPZIGWBS0RFX96P3K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/CoreMotion-BSB039CB890QBEHZ3ZED2CB5K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/CoreVideo-DWY4B3OZCX90SWJYJZ5SML3CJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/CoreMedia-1NW10Z70ZSG79O6RGG3GTL184.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/CoreImage-ERSCVXQAWR2Q2N62Y0WW8X6I6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/QuartzCore-2R526UDD6V7AB6HZZDGGWKUU4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/SwiftUICore-E3FIF00JPIDH9JE1FM8DLIR1K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/UIKit-BCNZBNXQGE64DTN5WRQNJWSJ4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/SwiftUI-5HLX6Y0WB6W2VI3QV2KGQXWAX.pcm
+
+SwiftCompile normal arm64 Compiling\ PocketSelfAgenteApp.swift ~/Documents/Voltolini/pocketself/agente-iphone/Anfitriao/PocketSelfAgenteApp.swift (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+
+SwiftCompile normal arm64 ~/Documents/Voltolini/pocketself/agente-iphone/Anfitriao/PocketSelfAgenteApp.swift (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-SwiftPerFileCompile PocketSelfAgenteApp.swift
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ PocketSelfAgente (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+
+SwiftCompile normal arm64 (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for PocketSelfAgente (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+
+SwiftDriver\ Compilation\ Requirements PocketSelfAgente normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PocketSelfAgente -Onone @~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -target arm64-apple-ios17.0 -g -module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -F ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -parse-as-library -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKStatCaches.noindex/iphoneos27.0-24A430-e829b21a6f8c9b70876ba0858053c0446c78b3cbc238196c85e1bf6c792c5915.sdkstatcache -output-file-map ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex -sdk-module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente_const_extract_protocols.json -Xcc -iquote -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-generated-files.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-own-target-headers.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-all-target-headers.hmap -Xcc -iquote -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-project-headers.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/include -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/DerivedSources-normal/arm64 -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/DerivedSources/arm64 -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente-Swift.h -working-directory ~/Documents/Voltolini/pocketself/agente-iphone -experimental-emit-module-separately -disable-cmo
+
+Copy ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.swiftmodule/arm64-apple-ios.abi.json ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.abi.json (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.abi.json ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.swiftmodule/arm64-apple-ios.abi.json
+
+Copy ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.swiftmodule/arm64-apple-ios.swiftdoc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.swiftdoc (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.swiftdoc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.swiftmodule/arm64-apple-ios.swiftdoc
+
+SwiftMergeGeneratedHeaders ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/DerivedSources/PocketSelfAgente-Swift.h ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente-Swift.h (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-swiftHeaderTool -arch arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente-Swift.h -o ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/DerivedSources/PocketSelfAgente-Swift.h
+
+Copy ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.swiftmodule/arm64-apple-ios.swiftmodule ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.swiftmodule (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.swiftmodule ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.swiftmodule/arm64-apple-ios.swiftmodule
+
+Copy ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.swiftsourceinfo (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.swiftsourceinfo ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo
+
+SwiftDriver PocketSelfAgenteUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PocketSelfAgenteUITests -Onone @~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -target arm64-apple-ios17.0 -g -module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib -F ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk/Developer/Library/Frameworks -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKStatCaches.noindex/iphoneos27.0-24A430-e829b21a6f8c9b70876ba0858053c0446c78b3cbc238196c85e1bf6c792c5915.sdkstatcache -output-file-map ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex -sdk-module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests_const_extract_protocols.json -Xcc -iquote -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-generated-files.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-own-target-headers.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-all-target-headers.hmap -Xcc -iquote -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-project-headers.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/include -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/DerivedSources-normal/arm64 -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/DerivedSources/arm64 -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests-Swift.h -working-directory ~/Documents/Voltolini/pocketself/agente-iphone -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/dnssd-BJKHUJMQHCXBP2JCBH55EOJWG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCUIAutomation-8INH2E1GLS6UCPYLZPC1XOW54.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules/Network-9RGKUUNDUXPBMYUVEGDZ9BZI.pcm
+
+SwiftExplicitDependencyCompileModuleFromInterface arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCUIAutomation-3IWAUSV4T3EH.swiftmodule
+
+SwiftExplicitDependencyGeneratePcm arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCTest-9C574FS2UQMKU5K18JN1S1D7Y.pcm
+
+SwiftExplicitDependencyCompileModuleFromInterface arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules/XCTest-3MJX12JWSU4NQ.swiftmodule
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ PocketSelfAgenteUITests (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+
+SwiftCompile normal arm64 (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    
+
+SwiftCompile normal arm64 Compiling\ Agente.swift ~/Documents/Voltolini/pocketself/agente-iphone/Runner/Agente.swift (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+
+SwiftCompile normal arm64 ~/Documents/Voltolini/pocketself/agente-iphone/Runner/Agente.swift (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-SwiftPerFileCompile Agente.swift
+
+SwiftCompile normal arm64 Compiling\ Logica.swift ~/Documents/Voltolini/pocketself/agente-iphone/Fonte/Logica.swift (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+
+SwiftCompile normal arm64 ~/Documents/Voltolini/pocketself/agente-iphone/Fonte/Logica.swift (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-SwiftPerFileCompile Logica.swift
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for PocketSelfAgenteUITests (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+
+SwiftDriver\ Compilation\ Requirements PocketSelfAgenteUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PocketSelfAgenteUITests -Onone @~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -target arm64-apple-ios17.0 -g -module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib -F ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk/Developer/Library/Frameworks -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKStatCaches.noindex/iphoneos27.0-24A430-e829b21a6f8c9b70876ba0858053c0446c78b3cbc238196c85e1bf6c792c5915.sdkstatcache -output-file-map ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex -sdk-module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests_const_extract_protocols.json -Xcc -iquote -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-generated-files.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-own-target-headers.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-all-target-headers.hmap -Xcc -iquote -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-project-headers.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/include -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/DerivedSources-normal/arm64 -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/DerivedSources/arm64 -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests-Swift.h -working-directory ~/Documents/Voltolini/pocketself/agente-iphone -experimental-emit-module-separately -disable-cmo
+
+SwiftMergeGeneratedHeaders ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/DerivedSources/PocketSelfAgenteUITests-Swift.h ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests-Swift.h (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-swiftHeaderTool -arch arm64 ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests-Swift.h -o ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/DerivedSources/PocketSelfAgenteUITests-Swift.h
+
+Copy ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests.swiftmodule/arm64-apple-ios.swiftdoc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.swiftdoc (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.swiftdoc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests.swiftmodule/arm64-apple-ios.swiftdoc
+
+Copy ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests.swiftmodule/arm64-apple-ios.swiftmodule ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.swiftmodule (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.swiftmodule ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests.swiftmodule/arm64-apple-ios.swiftmodule
+
+Copy ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests.swiftmodule/arm64-apple-ios.abi.json ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.abi.json (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.abi.json ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests.swiftmodule/arm64-apple-ios.abi.json
+
+Copy ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.swiftsourceinfo (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.swiftsourceinfo ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo
+
+SwiftDriverJobDiscovery normal arm64 Compiling Logica.swift (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+
+SwiftDriverJobDiscovery normal arm64 Compiling PocketSelfAgenteApp.swift (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+
+SwiftDriver\ Compilation PocketSelfAgente normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PocketSelfAgente -Onone @~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -target arm64-apple-ios17.0 -g -module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -F ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -parse-as-library -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKStatCaches.noindex/iphoneos27.0-24A430-e829b21a6f8c9b70876ba0858053c0446c78b3cbc238196c85e1bf6c792c5915.sdkstatcache -output-file-map ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex -sdk-module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente_const_extract_protocols.json -Xcc -iquote -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-generated-files.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-own-target-headers.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-all-target-headers.hmap -Xcc -iquote -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-project-headers.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/include -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/DerivedSources-normal/arm64 -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/DerivedSources/arm64 -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente-Swift.h -working-directory ~/Documents/Voltolini/pocketself/agente-iphone -experimental-emit-module-separately -disable-cmo
+
+Ld ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/PocketSelfAgente.debug.dylib normal (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos -L~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -F~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos -F~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -filelist ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.LinkFileList -install_name @rpath/PocketSelfAgente.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.swiftmodule -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/PocketSelfAgente.debug.dylib
+
+SwiftDriverJobDiscovery normal arm64 Compiling Agente.swift (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+
+SwiftDriver\ Compilation PocketSelfAgenteUITests normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PocketSelfAgenteUITests -Onone @~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.SwiftFileList -DDEBUG -module-alias Testing\=_Testing_Unavailable -plugin-path /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -target arm64-apple-ios17.0 -g -module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -Isystem /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib -F ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -F /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk/Developer/Library/Frameworks -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKStatCaches.noindex/iphoneos27.0-24A430-e829b21a6f8c9b70876ba0858053c0446c78b3cbc238196c85e1bf6c792c5915.sdkstatcache -output-file-map ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests-OutputFileMap.json -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex -sdk-module-cache-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules -emit-dependencies -emit-module -emit-module-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.swiftmodule -serialize-diagnostics -dependency-scan-serialize-diagnostics-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests-dependency-scan.dia -validate-clang-modules-once -clang-build-session-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/ModuleCache.noindex/Session.modulevalidation -Xcc -fmodules-prune-interval\=86400 -Xcc -fmodules-prune-after\=345600 -emit-const-values -const-gather-protocols-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests_const_extract_protocols.json -Xcc -iquote -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-generated-files.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-own-target-headers.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-all-target-headers.hmap -Xcc -iquote -Xcc ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests-project-headers.hmap -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/include -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/DerivedSources-normal/arm64 -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/DerivedSources/arm64 -Xcc -I~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests-Swift.h -working-directory ~/Documents/Voltolini/pocketself/agente-iphone -experimental-emit-module-separately -disable-cmo
+
+ConstructStubExecutorLinkFileList ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-ExecutorLinkFileList-normal-arm64.txt (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    construct-stub-executor-link-file-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/PocketSelfAgente.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+
+Ld ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/PocketSelfAgente normal (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -F~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente-ExecutorLinkFileList-normal-arm64.txt ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/PocketSelfAgente.debug.dylib -o ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/PocketSelfAgente
+
+CopySwiftLibs ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-swiftStdLibTool --copy --verbose --scan-executable ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/PocketSelfAgente.debug.dylib --scan-folder ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/Frameworks --scan-folder ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/PlugIns --scan-folder ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/SystemExtensions --scan-folder ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/Extensions --platform iphoneos --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.1.266.1.6Hpyfq/Metal.xctoolchain --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os --back-deploy-swift-span
+Ignoring --strip-bitcode because --sign was not passed
+
+ExtractAppIntentsMetadata (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.1.266.1.6Hpyfq/Metal.xctoolchain --module-name PocketSelfAgente --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk --xcode-version 27A266a --platform-family iOS --deployment-target 17.0 --bundle-identifier io.github.voltolini-space.pocketselfagente --output ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app --target-triple arm64-apple-ios17.0 --binary-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/PocketSelfAgente --dependency-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente_dependency_info.dat --stringsdata-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.SwiftFileList --metadata-file-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente.DependencyMetadataFileList --static-metadata-file-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente.DependencyStaticMetadataFileList --swift-const-vals-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/Objects-normal/arm64/PocketSelfAgente.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --no-app-shortcuts-localization
+2026-10-12 16:08:19.301 appintentsmetadataprocessor[76768:6409028] Starting appintentsmetadataprocessor export
+2026-10-12 16:08:19.303 appintentsmetadataprocessor[76768:6409028] warning: Metadata extraction skipped, no AppIntents.framework dependency found
+
+AppIntentsSSUTraining (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/Info.plist --temp-dir-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/ssu --bundle-id io.github.voltolini-space.pocketselfagente --product-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app --extracted-metadata-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/Metadata.appintents --metadata-file-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgente.build/PocketSelfAgente.DependencyMetadataFileList --source-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app/Info.plist --archive-ssu-assets
+2026-10-12 16:08:19.320 appintentsnltrainingprocessor[76769:6409031] Parsing options for appintentsnltrainingprocessor
+2026-10-12 16:08:19.320 appintentsnltrainingprocessor[76769:6409031] Starting AppIntents SSU YAML Generation
+2026-10-12 16:08:19.320 appintentsnltrainingprocessor[76769:6409031] No AppShortcuts found - Skipping.
+
+RegisterExecutionPolicyException ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-RegisterExecutionPolicyException ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app
+
+Validate ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-validationUtility ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app -shallow-bundle -infoplist-subpath Info.plist
+warning: All interface orientations must be supported unless the app requires full screen. (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+
+Touch ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app (in target 'PocketSelfAgente' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    /usr/bin/touch -c ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgente.app
+
+ProcessInfoPlistFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/Info.plist ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/empty-PocketSelfAgenteUITests.plist (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-infoPlistUtility ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/empty-PocketSelfAgenteUITests.plist -producttype com.apple.product-type.bundle.ui-testing -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/ProductTypeInfoPlistAdditions.plist -requiredArchitecture arm64 -o ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/Info.plist
+
+Ld ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/PocketSelfAgenteUITests normal (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk -O0 -Xlinker -no_warn_duplicate_libraries -L~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos -L~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -L/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib -F~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos -F~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Frameworks -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk/Developer/Library/Frameworks -filelist ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.LinkFileList -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @loader_path/Frameworks -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.swiftmodule -Xlinker -needed_framework -Xlinker XCTest -framework XCTest -Xlinker -needed-lXCTestSwiftSupport -lXCTestSwiftSupport -o ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/PocketSelfAgenteUITests
+
+CopySwiftLibs ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-swiftStdLibTool --copy --verbose --scan-executable ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/PocketSelfAgenteUITests --scan-folder ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/Frameworks --scan-folder ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/PlugIns --scan-folder ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/SystemExtensions --scan-folder ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/Extensions --platform iphoneos --toolchain /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.1.266.1.6Hpyfq/Metal.xctoolchain --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/Frameworks --strip-bitcode --scan-executable /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/libXCTestSwiftSupport.dylib --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os --back-deploy-swift-span
+Ignoring --strip-bitcode because --sign was not passed
+
+ExtractAppIntentsMetadata (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.1.266.1.6Hpyfq/Metal.xctoolchain --module-name PocketSelfAgenteUITests --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS27.0.sdk --xcode-version 27A266a --platform-family iOS --deployment-target 17.0 --bundle-identifier io.github.voltolini-space.pocketselfagente.runner --output ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest --target-triple arm64-apple-ios17.0 --binary-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/PocketSelfAgenteUITests --dependency-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests_dependency_info.dat --stringsdata-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.SwiftFileList --metadata-file-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests.DependencyMetadataFileList --static-metadata-file-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests.DependencyStaticMetadataFileList --swift-const-vals-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/Objects-normal/arm64/PocketSelfAgenteUITests.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --no-app-shortcuts-localization
+2026-10-12 16:08:19.613 appintentsmetadataprocessor[76773:6409052] Starting appintentsmetadataprocessor export
+2026-10-12 16:08:19.614 appintentsmetadataprocessor[76773:6409052] warning: Metadata extraction skipped, no AppIntents.framework dependency found
+
+GenerateDSYMFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest.dSYM ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/PocketSelfAgenteUITests (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    export PATH\=/Applications/Xcode.app/Contents/SharedFrameworks/SwiftBuild.framework/Versions/A/PlugIns/SWBBuildService.bundle/Contents/PlugIns/SWBUniversalPlatformPlugin.bundle/Contents/Frameworks/SWBUniversalPlatform.framework/Resources:/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.1.266.1.6Hpyfq/Metal.xctoolchain/usr/bin:/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.1.266.1.6Hpyfq/Metal.xctoolchain/usr/local/bin:/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v27.1.266.1.6Hpyfq/Metal.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:~/.local/node-v24.21.0/bin:~/.local/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/Apple/usr/bin:~/Library/pnpm
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/PocketSelfAgenteUITests -o ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest.dSYM
+
+AppIntentsSSUTraining (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/Info.plist --temp-dir-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/ssu --bundle-id io.github.voltolini-space.pocketselfagente.runner --product-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest --extracted-metadata-path ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/Metadata.appintents --metadata-file-list ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/PocketSelfAgente.build/Debug-iphoneos/PocketSelfAgenteUITests.build/PocketSelfAgenteUITests.DependencyMetadataFileList --source-file ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/Info.plist --archive-ssu-assets
+2026-10-12 16:08:19.630 appintentsnltrainingprocessor[76775:6409057] Parsing options for appintentsnltrainingprocessor
+2026-10-12 16:08:19.631 appintentsnltrainingprocessor[76775:6409057] Starting AppIntents SSU YAML Generation
+2026-10-12 16:08:19.631 appintentsnltrainingprocessor[76775:6409057] No AppShortcuts found - Skipping.
+
+MkDir ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    /bin/mkdir -p ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app
+
+CopyAndPreserveArchs ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PocketSelfAgenteUITests-Runner (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app/XCTRunner -output ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PocketSelfAgenteUITests-Runner -extract arm64
+
+CopyPlistFile ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/Info.plist /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app/Info.plist (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-copyPlist --validate --convert xml1 --macro-expansion WRAPPEDPRODUCTNAME PocketSelfAgenteUITests-Runner --macro-expansion WRAPPEDPRODUCTBUNDLEIDENTIFIER io.github.voltolini-space.pocketselfagente.runner.xctrunner --macro-expansion TESTPRODUCTNAME PocketSelfAgenteUITests --macro-expansion TESTPRODUCTBUNDLEIDENTIFIER io.github.voltolini-space.pocketselfagente.runner --copy-value UIDeviceFamily ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest/Info.plist --outdir ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app -- /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app/Info.plist
+
+Copy ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PkgInfo /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app/PkgInfo (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Agents/XCTRunner.app/PkgInfo ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app
+
+RegisterExecutionPolicyException ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    builtin-RegisterExecutionPolicyException ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest
+
+Touch ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest (in target 'PocketSelfAgenteUITests' from project 'PocketSelfAgente')
+    cd ~/Documents/Voltolini/pocketself/agente-iphone
+    /usr/bin/touch -c ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Products/Debug-iphoneos/PocketSelfAgenteUITests-Runner.app/PlugIns/PocketSelfAgenteUITests.xctest
+
+PruneExplicitPrecompiledModules ~/Documents/Voltolini/pocketself/agente-iphone/.build/SDKExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+PruneExplicitPrecompiledModules ~/Documents/Voltolini/pocketself/agente-iphone/.build/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+** TEST BUILD SUCCEEDED **
+

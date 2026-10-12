@@ -1,0 +1,14 @@
+[neo-decide] treinado exemplos=167 T=2.60 ECE=0.096 acertoCV=0.61 em 18 ms
+[neo] motor=Gemma 4 E2B carregado_em_s=1.6
+[pocketself-bench] {"sistema":"Version 26.6.1 (Build 23G83)","aparelho":"iPhone18,2","primeiraFrioMs":2848.994016647339,"ramGB":11.4,"termicoAntes":0,"data":"2026-10-12 17:21","cargaS":1.5688600540161133,"primeiraQuenteMs":89.64192867279053,"tokens":72,"termicoDepois":0,"motor":"gemma-4-e2b","pegadaMB":2696,"tokS":46.745677765868805,"nome":"Gemma 4 E2B","livreMB":3447}
+[neo] motor=Qwen3.5 4B carregado_em_s=1.0
+[pocketself-bench] {"aparelho":"iPhone18,2","ramGB":11.4,"nome":"Qwen3.5 4B","cargaS":1.061156988143921,"termicoDepois":0,"primeiraFrioMs":161.17095947265625,"data":"2026-10-12 17:22","primeiraQuenteMs":154.61301803588867,"motor":"qwen3.5-4b","tokens":96,"pegadaMB":2452,"termicoAntes":0,"tokS":26.051771814448305,"livreMB":3691,"sistema":"Version 26.6.1 (Build 23G83)"}
+[neo] motor=Qwen3.5 9B carregado_em_s=2.7
+[pocketself-bench] {"livreMB":1123,"aparelho":"iPhone18,2","tokens":96,"termicoAntes":0,"sistema":"Version 26.6.1 (Build 23G83)","ramGB":11.4,"tokS":14.194903129827122,"cargaS":2.7358280420303345,"motor":"qwen3.5-9b","pegadaMB":5020,"data":"2026-10-12 17:22","nome":"Qwen3.5 9B","termicoDepois":0,"primeiraQuenteMs":449.8709440231323,"primeiraFrioMs":628.8409233093262}
+[neo] falha ao carregar Gemma 4 E4B: caught("[load_safetensors] Tensor \'audio_tower.layers.0.self_attn.k_proj.input_min\' invalid data offsets (4581545690, 4581545692) exceeding the size of the file. Perhaps an incomplete download or corrupt file? at ~/Documents/Voltolini/pocketself/app/.build-device/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-c/mlx/c/io.cpp:76")
+[pocketself-bench] falhou gemma-4-e4b: MLX Error: [load_safetensors] Tensor 'audio_tower.layers.0.self_attn.k_proj.input_min' invalid data offsets (4581545690, 4581545692) exceeding the size of the file. Perhaps an incomplete download or corrupt file? at ~/Documents/Voltolini/pocketself/app/.build-device/SourcePackages/checkouts/mlx-swift/Source/Cmlx/mlx-c/mlx/c/io.cpp:76
+[pocketself-bench] fim
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 9.
+FIMCONSOLE

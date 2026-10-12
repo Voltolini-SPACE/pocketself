@@ -1,0 +1,81 @@
+# PocketSelf — projeto Xcode gerado pelo xcodegen (`xcodegen generate` nesta pasta).
+# PocketSelf (MIT). Motores locais via mlx-swift-lm.
+name: PocketSelf
+options:
+  bundleIdPrefix: space.voltolini
+  deploymentTarget:
+    iOS: "18.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: false
+packages:
+  VozNeural:
+    path: Pacotes/VozNeural
+  mlx-swift-lm:
+    url: https://github.com/ml-explore/mlx-swift-lm.git
+    branch: main
+  mlx-swift:
+    url: https://github.com/ml-explore/mlx-swift
+    exactVersion: 0.32.3
+  swift-transformers:
+    url: https://github.com/huggingface/swift-transformers
+    from: 1.3.0
+  swift-huggingface:
+    url: https://github.com/huggingface/swift-huggingface
+    from: 0.9.0
+targets:
+  PocketSelf:
+    type: application
+    platform: iOS
+    sources:
+      - path: PocketSelf
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: io.github.voltolini-space.pocketself
+        PRODUCT_NAME: PocketSelf
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_ENTITLEMENTS: PocketSelf/PocketSelf.entitlements
+        SWIFT_VERSION: "5.0"
+        SWIFT_STRICT_CONCURRENCY: minimal
+        TARGETED_DEVICE_FAMILY: "1"
+        MARKETING_VERSION: "0.1"
+        CURRENT_PROJECT_VERSION: "1"
+        GENERATE_INFOPLIST_FILE: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: ""
+        INFOPLIST_KEY_CFBundleDisplayName: PocketSelf
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_NSMicrophoneUsageDescription: "O PocketSelf usa o microfone só quando você inicia uma gravação ou uma conversa ao vivo. O áudio é processado no próprio iPhone."
+        INFOPLIST_KEY_NSSpeechRecognitionUsageDescription: "O PocketSelf transcreve a sua fala no próprio iPhone para conversar por voz."
+        INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription: "O PocketSelf lê a sua agenda quando você pede e cria compromissos só depois da sua confirmação na tela."
+        INFOPLIST_KEY_NSRemindersFullAccessUsageDescription: "O PocketSelf cria lembretes só depois da sua confirmação na tela."
+        INFOPLIST_KEY_NSCameraUsageDescription: "O PocketSelf usa a câmera só quando você tira uma foto para ele ler. A imagem é analisada no próprio iPhone."
+        INFOPLIST_KEY_NSLocationWhenInUseUsageDescription: "O PocketSelf usa o GPS só quando você pede a sua localização (por exemplo, para informar coordenadas a um resgate). Funciona sem internet."
+        INFOPLIST_KEY_NSContactsUsageDescription: "O PocketSelf procura contatos quando você pede para mandar mensagem, e-mail ou ligar."
+        INFOPLIST_KEY_NSAppleMusicUsageDescription: "O PocketSelf toca as músicas guardadas neste iPhone quando você pede."
+        INFOPLIST_KEY_UIUserInterfaceStyle: Automatic
+    info:
+      path: PocketSelf/Info.plist
+      properties:
+        LSApplicationQueriesSchemes: [spotify, youtube, whatsapp, instagram, tg, uber, maps, shortcuts]
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+        NSLocalNetworkUsageDescription: "O PocketSelf conversa com um servidor da sua rede, se você configurar um, para usar um modelo maior."
+    dependencies:
+      - package: mlx-swift-lm
+        product: MLXLLM
+      - package: mlx-swift-lm
+        product: MLXVLM
+      - package: VozNeural
+        product: KokoroTTS
+      - package: mlx-swift-lm
+        product: MLXLMCommon
+      - package: mlx-swift-lm
+        product: MLXHuggingFace
+      - package: mlx-swift
+        product: MLX
+      - package: swift-transformers
+        product: Tokenizers
+      - package: swift-huggingface
+        product: HuggingFace

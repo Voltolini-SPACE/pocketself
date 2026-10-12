@@ -1,0 +1,10 @@
+2026-10-10T08:21:30Z
+[neo-decide] treinado exemplos=184 T=2.80 ECE=0.044 acertoCV=0.65 em 29 ms
+[neo] motor=Spark conectado
+[neo-decide] classe=conversa p=1.00 ms=0.08 confiavel=1
+[neo] turno spark partes=31 primeira_ms=179 tok_s=39.0
+[neo-decide] classe=apps p=0.23 ms=0.11 confiavel=0
+[neo] turno spark partes=40 primeira_ms=151 tok_s=39.2
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 9.

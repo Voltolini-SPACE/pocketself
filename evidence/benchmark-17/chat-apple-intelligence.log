@@ -1,0 +1,7 @@
+[neo-decide] treinado exemplos=167 T=2.60 ECE=0.096 acertoCV=0.61 em 27 ms
+[pocketself] motor=Apple Intelligence
+[neo-decide] classe=conversa p=0.97 ms=0.08 confiavel=1
+[pocketself] turno apple partes=4 primeira_ms=740
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 15.

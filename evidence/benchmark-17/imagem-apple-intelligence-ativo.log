@@ -1,0 +1,14 @@
+[neo-decide] treinado exemplos=167 T=2.60 ECE=0.096 acertoCV=0.61 em 28 ms
+[neo] motor=Qwen3.5 4B carregado_em_s=1.1
+[neo-decide] classe=imagem p=1.00 ms=0.08 confiavel=1
+[neo] sessão nova conversa=707C180F mensagens=1 ferramentas=["criar_imagem"]
+[neo] cache antes do turno: processados=-1
+[neo-ferramenta] chamada=criar_imagem aos_ms=3035 args=["estilo": MLXLMCommon.JSONValue.string("ilustracao"), "descricao": MLXLMCommon.JSONValue.string("farol ao entardecer")]
+[neo-imagem] gerada=img-1791836982.png estilo=ImagePlaygroundStyle(id: "illustration", _representationInfo: nil) s=5.1
+[neo-ferramenta] resultado={"texto":"Imagem criada e mostrada ao usuário no chat. Descreva em uma frase o que foi criado."}
+[neo] turno tokens=17 primeira_ms=8493 tok_s=27.1 interrompida=0 decisao=criar imagem 1.00 · 0.1 ms
+[neo-decide] treinado exemplos=168 T=3.20 ECE=0.102 acertoCV=0.62 em 46 ms
+[neo-decide] aprendeu classe=imagem origem=ferramenta total=168
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 9.

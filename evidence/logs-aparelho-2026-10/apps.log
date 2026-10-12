@@ -1,0 +1,38 @@
+2026-10-10T03:38:15Z
+[neo-decide] treinado exemplos=169 T=2.80 ECE=0.052 acertoCV=0.62 em 21 ms
+[neo] motor=Qwen3.5 4B carregado_em_s=2.1
+[neo-decide] classe=apps p=0.87 ms=0.07 confiavel=1
+[neo] sessão nova conversa=AC7DAD4F mensagens=1 ferramentas=["abrir_app", "brilho_tela", "criar_alarme", "criar_nota", "hora_e_data", "lanterna", "rodar_atalho", "timer", "tocar_musica"]
+[neo] cache antes do turno: processados=-1
+[neo-ferramenta] chamada=lanterna aos_ms=10495 args=["ligar": MLXLMCommon.JSONValue.bool(true)]
+[neo-ferramenta] resultado={"texto":"Lanterna ligada."}
+[neo] turno tokens=6 primeira_ms=19938 tok_s=20.1 interrompida=0 decisao=notas, alarmes, música e atalhos 0.87 · 0.1 ms
+[neo-decide] treinado exemplos=170 T=2.80 ECE=0.054 acertoCV=0.62 em 38 ms
+[neo-decide] aprendeu classe=apps origem=ferramenta total=170
+[neo-decide] classe=apps p=0.91 ms=0.05 confiavel=1
+[neo] cache antes do turno: processados=1426
+[neo-ferramenta] chamada=lanterna aos_ms=1963 args=["ligar": MLXLMCommon.JSONValue.bool(false)]
+[neo-ferramenta] resultado={"texto":"Lanterna desligada."}
+[neo] turno tokens=7 primeira_ms=2315 tok_s=19.3 interrompida=0 decisao=notas, alarmes, música e atalhos 0.91 · 0.0 ms
+[neo-decide] treinado exemplos=171 T=2.80 ECE=0.048 acertoCV=0.62 em 43 ms
+[neo-decide] aprendeu classe=apps origem=ferramenta total=171
+[neo-decide] classe=apps p=0.99 ms=0.08 confiavel=1
+[neo] cache antes do turno: processados=1509
+[neo-ferramenta] chamada=timer aos_ms=2690 args=["minutos": MLXLMCommon.JSONValue.int(2), "rotulo": MLXLMCommon.JSONValue.string("café")]
+[neo-ferramenta] resultado={"texto":"Timer de 2 min criado; toca às 00:41."}
+[neo] turno tokens=10 primeira_ms=26616 tok_s=18.8 interrompida=0 decisao=notas, alarmes, música e atalhos 0.99 · 0.1 ms
+[neo-decide] treinado exemplos=172 T=2.80 ECE=0.048 acertoCV=0.63 em 42 ms
+[neo-decide] aprendeu classe=apps origem=ferramenta total=172
+[neo-decide] classe=apps p=1.00 ms=0.06 confiavel=1
+[neo] cache antes do turno: processados=1622
+[neo-ferramenta] chamada=abrir_app aos_ms=1908 args=["app": MLXLMCommon.JSONValue.string("spotify")]
+[neo-ferramenta] abriu=Spotify url=spotify:
+[neo-ferramenta] resultado={"texto":"Abri o Spotify."}
+[neo-ferramenta] chamada=tocar_musica aos_ms=4105 args=["busca": MLXLMCommon.JSONValue.string("Djavan")]
+[neo-ferramenta] resultado={"texto":"Não achei «Djavan» nas músicas guardadas neste iPhone."}
+[neo] turno tokens=21 primeira_ms=4728 tok_s=17.5 interrompida=0 decisao=notas, alarmes, música e atalhos 1.00 · 0.1 ms
+[neo-decide] treinado exemplos=173 T=2.80 ECE=0.050 acertoCV=0.63 em 43 ms
+[neo-decide] aprendeu classe=apps origem=ferramenta total=173
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 9.

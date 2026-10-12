@@ -1,0 +1,26 @@
+[bench] loading Edge0 35B
+[bench] thermalAtLaunch=0
+[mem] cacheLimit=3569MiB highMem=true available=6128MiB
+[coreml-head] disabled or absent
+[weights] free=14501MiB
+[pregate] heads loaded: owners 6..38 n=33
+[weights] first-turn cache tensors=713 0.71s
+[weights] gpu warm 2.47s
+[35b] thinking=off
+[35b layer] 0 T=82
+[35b layer] 10 T=82
+[35b layer] 20 T=82
+[35b layer] 30 T=82
+[35b prefill] tokens=92 total=13.78s rate=6.67 tok/s syncLinear=1373ms syncFull=586ms read=3030ms stack=875ms readMBps=3228 depth=10.68 union/pairs=0.24 weightCopy=0ms wMBps=- pregate=3ms prefetch=62%
+[35b decode] tokens=63 total=6.90s rate=9.13 tok/s thermal=nominal→nominal mlxPeak=1860MB footprint=2978MB available=3166MB syncLinear=8ms syncFull=1ms read=29ms stack=15ms readMBps=9836 depth=4.00 union/pairs=1.00 weightCopy=0ms wMBps=- pregate=3ms prefetch=86%
+[generation] 64 tokens · TTFT 13.8s · prefill 6.7 tok/s · decode 9.13 tok/s · peak 2978 MB
+[bench] second turn
+[35b] thinking=off
+[35b prefill] tokens=18 total=1.09s rate=16.55 tok/s syncLinear=259ms syncFull=58ms read=532ms stack=146ms readMBps=4122 depth=31.00 union/pairs=0.43 weightCopy=0ms wMBps=- pregate=4ms prefetch=4%
+[35b decode] tokens=38 total=4.70s rate=8.08 tok/s thermal=nominal→nominal mlxPeak=1510MB footprint=3701MB available=2442MB syncLinear=9ms syncFull=1ms read=32ms stack=15ms readMBps=8771 depth=4.00 union/pairs=1.00 weightCopy=0ms wMBps=- pregate=3ms prefetch=86%
+[generation turn2] 39 tokens · TTFT 1.1s · prefill 16.6 tok/s · decode 8.08 tok/s · peak 3701 MB
+[bench memory] endFootprintMiB=3701.191261291504 thermal=0
+[bench timing] ttftSeconds=13.785076975822449 prefillSeconds=13.784970998764038 prefillTokPerSec=6.673934969340793 decodeTokPerSec=9.129056183250286
+Launched application with space.voltolini.edge0phone bundle identifier.
+Waiting for the application to terminate...
+The app terminated with the exit code 0.

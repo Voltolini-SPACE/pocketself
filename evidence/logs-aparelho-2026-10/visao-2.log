@@ -1,0 +1,12 @@
+[neo-decide] treinado exemplos=109 T=3.20 ECE=0.038 acertoCV=0.62 em 15 ms
+[neo] motor=Qwen3.5 4B carregado_em_s=2.0
+[neo-visao] linhas=9 rotulos=documento,printed page ms=323
+[neo-decide] classe=conversa p=0.39 ms=0.07 confiavel=0
+[neo] sessão nova conversa=8BC833E7 mensagens=1 ferramentas=["agenda_criar", "agenda_listar", "estado_do_aparelho", "hora_e_data", "lembrar", "lembrete_criar", "ler_pagina", "pesquisar_web"]
+[neo] cache antes do turno: processados=-1
+[neo] turno tokens=24 primeira_ms=8864 tok_s=17.9 interrompida=0 decisao=conversa 0.39 · 0.1 ms
+[neo-decide] treinado exemplos=110 T=2.60 ECE=0.062 acertoCV=0.64 em 30 ms
+[neo-decide] aprendeu classe=conversa origem=ferramenta total=110
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 9.

@@ -1,0 +1,13 @@
+[neo-decide] treinado exemplos=166 T=2.60 ECE=0.083 acertoCV=0.61 em 27 ms
+[neo] motor=Gemma 4 E2B carregado_em_s=1.1
+[pocketself-bench] {"tokens":69,"data":"2026-10-12 17:54","ramGB":11.4,"motor":"gemma-4-e2b","cargaS":1.1288409233093262,"tokS":47.6761057372936,"termicoAntes":0,"primeiraFrioMs":4791.4299964904785,"termicoDepois":0,"nome":"Gemma 4 E2B","livreMB":3450,"sistema":"Version 26.6.1 (Build 23G83)","aparelho":"iPhone18,2","pegadaMB":2693,"primeiraQuenteMs":88.4389877319336}
+[neo] motor=Qwen3.5 4B carregado_em_s=1.0
+[pocketself-bench] {"primeiraQuenteMs":154.5480489730835,"aparelho":"iPhone18,2","tokens":96,"primeiraFrioMs":2560.081958770752,"livreMB":3706,"sistema":"Version 26.6.1 (Build 23G83)","pegadaMB":2439,"data":"2026-10-12 17:54","cargaS":1.0738229751586914,"tokS":26.070481508674202,"motor":"qwen3.5-4b","termicoAntes":0,"ramGB":11.4,"termicoDepois":0,"nome":"Qwen3.5 4B"}
+[neo] motor=Qwen3.5 9B carregado_em_s=2.5
+[pocketself-bench] {"tokS":14.399053214238284,"cargaS":2.617570996284485,"termicoDepois":0,"ramGB":11.4,"data":"2026-10-12 17:54","aparelho":"iPhone18,2","nome":"Qwen3.5 9B","motor":"qwen3.5-9b","primeiraFrioMs":655.0980806350708,"termicoAntes":0,"livreMB":1115,"pegadaMB":5028,"primeiraQuenteMs":289.34502601623535,"sistema":"Version 26.6.1 (Build 23G83)","tokens":96}
+[neo] motor=Gemma 4 E4B carregado_em_s=1.9
+[pocketself-bench] {"cargaS":1.9400529861450195,"pegadaMB":4236,"livreMB":1907,"primeiraFrioMs":719.1519737243652,"nome":"Gemma 4 E4B","tokS":23.375276739260098,"tokens":67,"termicoAntes":0,"termicoDepois":0,"primeiraQuenteMs":204.76198196411133,"sistema":"Version 26.6.1 (Build 23G83)","data":"2026-10-12 17:55","motor":"gemma-4-e4b","aparelho":"iPhone18,2","ramGB":11.4}
+[pocketself] motor=Apple Intelligence
+[pocketself-bench] {"cargaS":0.0904620885848999,"pegadaMB":105,"livreMB":6038,"primeiraFrioMs":2747.0669746398926,"nome":"Apple Intelligence","tokS":7.875069117780185,"tokens":8,"termicoAntes":0,"termicoDepois":0,"primeiraQuenteMs":301.4819622039795,"sistema":"Version 26.6.1 (Build 23G83)","data":"2026-10-12 17:55","motor":"apple","aparelho":"iPhone18,2","ramGB":11.4}
+[pocketself-bench] fim
+FIMCONSOLE

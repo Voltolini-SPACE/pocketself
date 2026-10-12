@@ -1,0 +1,11 @@
+[neo-decide] treinado exemplos=167 T=2.60 ECE=0.096 acertoCV=0.61 em 17 ms
+[neo-orq] inicio | pegada=211 MB livre=5932 MB termico=0
+[neo] motor=Qwen3.5 4B carregado_em_s=1.6
+[neo-orq] qwen carregado em 1.5 s | pegada=5132 MB livre=1011 MB termico=0
+[neo-orq] qwen após limpar cache | pegada=5112 MB livre=1031 MB termico=0
+[neo-orq] qwen após 1 resposta (tps=25.8) | pegada=4820 MB livre=1325 MB termico=0
+[neo-orq] PARADA: memória insuficiente para o segundo motor | pegada=4818 MB livre=1325 MB termico=0
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+The app terminated with the exit code 0.
+FIMCONSOLE

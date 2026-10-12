@@ -1,0 +1,13 @@
+2026-10-10T03:04:11Z
+[neo-decide] treinado exemplos=149 T=3.20 ECE=0.062 acertoCV=0.62 em 28 ms
+[neo] motor=Qwen3.5 4B carregado_em_s=2.2
+[neo-decide] classe=imagem p=1.00 ms=0.12 confiavel=1
+[neo] sessão nova conversa=D19E8546 mensagens=1 ferramentas=["criar_imagem"]
+[neo] cache antes do turno: processados=-1
+[neo-ferramenta] chamada=criar_imagem aos_ms=6801 args=["descricao": MLXLMCommon.JSONValue.string("um robô simpático tomando café"), "estilo": MLXLMCommon.JSONValue.string("ilustracao")]
+[neo-imagem] gerada=img-1791601471.png estilo=ImagePlaygroundStyle(id: "illustration", _representationInfo: nil) s=10.1
+[neo-ferramenta] resultado={"texto":"Imagem criada e mostrada ao usuário no chat. Descreva em uma frase o que foi criado."}
+[neo] turno tokens=16 primeira_ms=17506 tok_s=18.6 interrompida=0 decisao=criar imagem 1.00 · 0.1 ms
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 9.

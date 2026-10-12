@@ -1,0 +1,12 @@
+2026-10-10T03:40:00Z
+[neo-decide] treinado exemplos=173 T=2.80 ECE=0.050 acertoCV=0.63 em 23 ms
+[neo] motor=Qwen3.5 4B carregado_em_s=2.2
+[neo-decide] classe=apps p=0.97 ms=0.07 confiavel=1
+[neo] sessão nova conversa=3D44E628 mensagens=1 ferramentas=["abrir_app", "brilho_tela", "criar_alarme", "criar_nota", "hora_e_data", "lanterna", "rodar_atalho", "timer", "tocar_musica"]
+[neo] cache antes do turno: processados=-1
+[neo-ferramenta] chamada=tocar_musica aos_ms=10771 args=["busca": MLXLMCommon.JSONValue.string("Djavan")]
+[neo-ferramenta] abriu=Spotify url=spotify:search:Djavan
+[neo-ferramenta] resultado={"texto":"Não estava guardada no iPhone; abri o Spotify buscando «Djavan». Toque no primeiro resultado para começar."}
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 9.

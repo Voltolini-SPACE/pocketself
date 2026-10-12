@@ -1,0 +1,43 @@
+2026-10-10T03:15:29Z
+[neo-decide] treinado exemplos=150 T=3.20 ECE=0.047 acertoCV=0.62 em 19 ms
+[neo] motor=Qwen3.5 4B carregado_em_s=2.2
+[neo-voz] kokoro carregado em 3.4 s
+[neo-voz] kokoro frase=4 chars audio=0.5 s em 0.67 s
+[neo-voz] motor pronto eco=true buffers_em_1_5s=0 no_aparelho=true voz=com.apple.voice.compact.pt-BR.Luciana qualidade=1
+[neo-voz] motor pronto eco=false buffers_em_1_5s=15 no_aparelho=true voz=com.apple.voice.compact.pt-BR.Luciana qualidade=1
+[neo-voz] chamada iniciada
+[neo-voz] microfone rms=0.0058 pico=0.064
+[neo-voz] ouvido=Olá Nelson está me ouvindo
+[neo-decide] classe=aparelho p=0.51 ms=0.20 confiavel=0
+[neo] sessão nova conversa=5B908772 mensagens=1 ferramentas=["agenda_criar", "agenda_listar", "buscar_contato", "criar_alarme", "criar_imagem", "criar_nota", "enviar_email", "enviar_mensagem", "estado_do_aparelho", "hora_e_data", "lembrar", "lembrete_criar", "ler_pagina", "ligar", "pesquisar_web", "rodar_atalho", "tocar_musica"]
+[neo] cache antes do turno: processados=-1
+[neo-voz] microfone rms=0.0039 pico=0.086
+[neo-voz] microfone rms=0.0006 pico=0.010
+[neo-voz] microfone rms=0.0238 pico=3.785
+[neo-voz] kokoro frase=4 chars audio=0.3 s em 0.80 s
+[neo-voz] latencia_ate_primeira_frase_s=15.86
+[neo] turno tokens=14 primeira_ms=14810 tok_s=11.6 interrompida=0 decisao=estado do aparelho 0.51 · 0.2 ms
+[neo-decide] treinado exemplos=151 T=3.20 ECE=0.045 acertoCV=0.62 em 30 ms
+[neo-decide] aprendeu classe=conversa origem=ferramenta total=151
+[neo-voz] kokoro frase=21 chars audio=1.2 s em 0.59 s
+[neo-voz] kokoro frase=18 chars audio=1.2 s em 0.40 s
+[neo-voz] turno_total_s=18.91
+[neo-voz] microfone rms=0.0118 pico=0.452
+[neo-voz] resposta parada motivo=fim da chamada
+[neo-voz] chamada encerrada duracao_s=25
+[neo-voz] microfone rms=0.0009 pico=0.014
+[neo-voz] microfone rms=0.0018 pico=0.026
+[neo-voz] microfone rms=0.0010 pico=0.023
+[neo-voz] microfone rms=0.0007 pico=0.028
+[neo-voz] microfone rms=0.0002 pico=0.001
+[neo-voz] microfone rms=0.0002 pico=0.005
+[neo-voz] microfone rms=0.0001 pico=0.001
+[neo-voz] microfone rms=0.0003 pico=0.011
+[neo-voz] microfone rms=0.0008 pico=0.017
+[neo-voz] microfone rms=0.0005 pico=0.008
+[neo-voz] microfone rms=0.0001 pico=0.001
+[neo-voz] microfone rms=0.0002 pico=0.007
+[neo-voz] microfone rms=0.0006 pico=0.011
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 9.

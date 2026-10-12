@@ -1,0 +1,23 @@
+2026-10-10T01:11:59Z
+[neo-decide] treinado exemplos=88 T=2.40 ECE=0.059 acertoCV=0.68 em 11 ms
+[neo] motor=Qwen3.5 4B carregado_em_s=2.2
+[neo-decide] classe=conversa p=0.72 ms=0.05 confiavel=0
+[neo] sessão nova conversa=27CC3E64 mensagens=1 ferramentas=["agenda_criar", "agenda_listar", "estado_do_aparelho", "hora_e_data", "lembrar", "lembrete_criar"]
+[neo] cache antes do turno: processados=-1
+[neo] turno tokens=11 primeira_ms=6651 tok_s=18.2 interrompida=0 decisao=conversa 0.72 · 0.0 ms
+[neo-decide] classe=hora p=1.00 ms=0.08 confiavel=1
+[neo] cache antes do turno: processados=1044
+[neo-ferramenta] chamada=hora_e_data aos_ms=1319 args=[:]
+[neo-ferramenta] resultado={"texto":"sexta-feira, 9 de outubro de 2026, 22:12"}
+[neo] turno tokens=23 primeira_ms=9588 tok_s=16.9 interrompida=0 decisao=hora e data 1.00 · 0.1 ms
+[neo-decide] classe=lembrete p=1.00 ms=0.08 confiavel=1
+[neo] cache antes do turno: processados=1145
+[neo-ferramenta] chamada=lembrete_criar aos_ms=4143 args=["quando": MLXLMCommon.JSONValue.string("2026-10-10T08:00"), "titulo": MLXLMCommon.JSONValue.string("Pagar a conta de luz")]
+[neo-ferramenta] resultado={"texto":"Lembrete preparado (Pagar a conta de luz, sábado, 10 de outubro de 2026, 08:00). Aguardando o usuário confirmar na tela; não afirme que foi criado."}
+[neo] turno tokens=30 primeira_ms=5125 tok_s=16.7 interrompida=0 decisao=lembrete 1.00 · 0.1 ms
+[neo-decide] treinado exemplos=89 T=2.80 ECE=0.070 acertoCV=0.67 em 29 ms
+[neo-decide] aprendeu classe=lembrete origem=ferramenta total=89
+[neo-ferramenta] confirmada=lembrete titulo=Pagar a conta de luz
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 9.

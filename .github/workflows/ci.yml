@@ -1,0 +1,13 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  dados-pessoais:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash scripts/anti-dados-pessoais.sh
+  testes-macos:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash tests/testar.sh

@@ -1,0 +1,6 @@
+[neo-decide] treinado exemplos=187 T=3.80 ECE=0.116 acertoCV=0.67 em 25 ms
+[neo] motor=Qwen3.5 4B carregado_em_s=1.3
+[pocketself-reuniao] arquivo transcrito (SpeechAnalyzer) em 4.4 s · 122 palavras
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 9.

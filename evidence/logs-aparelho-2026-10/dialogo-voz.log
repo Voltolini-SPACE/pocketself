@@ -1,0 +1,25 @@
+2026-10-10T03:35:14Z
+[neo-decide] treinado exemplos=154 T=3.00 ECE=0.054 acertoCV=0.62 em 19 ms
+[neo] motor=Qwen3.5 4B carregado_em_s=2.2
+[neo-decide] classe=conversa p=0.83 ms=0.07 confiavel=1
+[neo] sessão nova conversa=0597A117 mensagens=1 ferramentas=[]
+[neo] cache antes do turno: processados=-1
+[neo] turno tokens=19 primeira_ms=1747 tok_s=18.1 interrompida=0 decisao=conversa 0.83 · 0.1 ms
+[neo-decide] classe=agenda_listar p=0.34 ms=0.16 confiavel=0
+[neo] cache antes do turno: processados=275
+[neo] turno tokens=36 primeira_ms=281 tok_s=18.0 interrompida=0 decisao=ver agenda 0.34 · 0.2 ms
+[neo-decide] treinado exemplos=155 T=3.00 ECE=0.050 acertoCV=0.61 em 47 ms
+[neo-decide] aprendeu classe=conversa origem=ferramenta total=155
+[neo-decide] classe=memoria p=0.74 ms=0.07 confiavel=0
+[neo] cache antes do turno: processados=339
+[neo] turno tokens=33 primeira_ms=274 tok_s=17.8 interrompida=0 decisao=guardar na memória 0.74 · 0.1 ms
+[neo-decide] treinado exemplos=156 T=3.00 ECE=0.062 acertoCV=0.60 em 45 ms
+[neo-decide] aprendeu classe=conversa origem=ferramenta total=156
+[neo-decide] classe=memoria p=0.56 ms=0.10 confiavel=0
+[neo] cache antes do turno: processados=393
+[neo] turno tokens=27 primeira_ms=289 tok_s=17.9 interrompida=0 decisao=guardar na memória 0.56 · 0.1 ms
+[neo-decide] treinado exemplos=157 T=3.00 ECE=0.049 acertoCV=0.61 em 40 ms
+[neo-decide] aprendeu classe=conversa origem=ferramenta total=157
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 9.

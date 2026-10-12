@@ -1,0 +1,8 @@
+[neo-decide] treinado exemplos=167 T=2.60 ECE=0.096 acertoCV=0.61 em 29 ms
+[pocketself] motor=Apple Intelligence
+[pocketself-bench] {"cargaS":0.004274964332580566,"nome":"Apple Intelligence","aparelho":"iPhone18,2","motor":"apple","ramGB":11.4,"tokens":9,"primeiraQuenteMs":267.9009437561035,"termicoAntes":0,"sistema":"Version 26.6.1 (Build 23G83)","primeiraFrioMs":1038.7769937515259,"tokS":7.537052072129159,"pegadaMB":32,"data":"2026-10-12 17:27","livreMB":6111,"termicoDepois":0}
+[pocketself-bench] fim
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 9.
+FIMCONSOLE

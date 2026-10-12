@@ -1,0 +1,19 @@
+2026-10-10T00:49:04Z
+[neo] motor=Qwen3.5 4B carregado_em_s=2.2
+[neo] prefixo aquecido em 6.7 s (memória: 0 itens ativos)
+[neo-ferramenta] chamada=hora_e_data args=[:]
+[neo-ferramenta] resultado={"texto":"sexta-feira, 9 de outubro de 2026, 21:49"}
+[neo] turno tokens=26 primeira_ms=16812 tok_s=16.1 interrompida=0
+[neo-ferramenta] chamada=estado_do_aparelho args=[:]
+[neo-ferramenta] resultado={"texto":"Bateria 100% (carregando), estado térmico morno, memória livre para o app 3451 MB."}
+[neo] turno tokens=36 primeira_ms=11040 tok_s=16.1 interrompida=0
+[neo-ferramenta] chamada=lembrete_criar args=["quando": MLXLMCommon.JSONValue.string("2026-10-10T09:00"), "titulo": MLXLMCommon.JSONValue.string("Ligar para o contador")]
+[neo-ferramenta] resultado={"texto":"Lembrete preparado (Ligar para o contador, sábado, 10 de outubro de 2026, 09:00). Aguardando o usuário confirmar na tela; não afirme que foi criado."}
+[neo] turno tokens=60 primeira_ms=11925 tok_s=2.8 interrompida=0
+[neo-ferramenta] confirmada=lembrete titulo=Ligar para o contador
+[neo-ferramenta] chamada=lembrar args=["conteudo": MLXLMCommon.JSONValue.string("Prefere respostas curtas e diretas, sem enrolação"), "categoria": MLXLMCommon.JSONValue.string("preferencia")]
+[neo-ferramenta] resultado={"texto":"Proposta registrada; aparecerá para o usuário aprovar. Não diga que já foi guardada."}
+[neo] turno tokens=22 primeira_ms=19788 tok_s=16.7 interrompida=0
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 9.

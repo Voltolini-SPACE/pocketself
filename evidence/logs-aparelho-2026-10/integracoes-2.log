@@ -1,0 +1,14 @@
+[neo-decide] treinado exemplos=133 T=3.80 ECE=0.059 acertoCV=0.57 em 19 ms
+[neo] motor=Qwen3.5 4B carregado_em_s=2.2
+[neo-decide] classe=contato p=1.00 ms=0.09 confiavel=1
+[neo] sessão nova conversa=9F26968D mensagens=1 ferramentas=["buscar_contato", "enviar_email", "enviar_mensagem", "ligar"]
+[neo] cache antes do turno: processados=-1
+[neo-ferramenta] chamada=enviar_mensagem aos_ms=9336 args=["texto": MLXLMCommon.JSONValue.string("Chego em 10 minutos."), "destino": MLXLMCommon.JSONValue.string("<numero-de-teste>")]
+[neo-ferramenta] resultado={"texto":"Mensagem preparado(a). Aguardando o usuário confirmar na tela; não afirme que foi feito."}
+[neo] turno tokens=30 primeira_ms=9870 tok_s=14.8 interrompida=0 decisao=contatos, mensagem e ligação 1.00 · 0.1 ms
+[neo-decide] treinado exemplos=134 T=3.40 ECE=0.038 acertoCV=0.57 em 35 ms
+[neo-decide] aprendeu classe=contato origem=ferramenta total=134
+[neo-ferramenta] confirmada=mensagem titulo=<numero-de-teste>
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 9.

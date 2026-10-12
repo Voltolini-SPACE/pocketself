@@ -1,0 +1,13 @@
+2026-10-10T03:49:53Z
+[neo-decide] treinado exemplos=173 T=2.80 ECE=0.050 acertoCV=0.63 em 21 ms
+[neo-orq] inicio | pegada=79 MB livre=6064 MB termico=0
+[neo-orq] apple disponibilidade=available pt_BR=true | pegada=314 MB livre=5829 MB termico=0
+[neo] motor=Qwen3.5 4B carregado_em_s=4.3
+[neo-orq] qwen residente | pegada=5031 MB livre=1112 MB termico=0
+[neo-orq] apple ttft=10030 ms total=11.4 s | Oi! Uma dica rápida é tentar criar um ambiente propício ao sono, como escurecer a sala ou usar uma máscara para os olhos. Além disso, praticar técnicas de relaxamento, como a medit | pegada=4698 MB livre=1445 MB termico=0
+[neo-orq] ERRO Error Domain=FoundationModels.LanguageModelSession.GenerationError Code=-1 "(null)" UserInfo={NSMultipleUnderlyingErrorsKey=(
+    "Error Domain=ModelManagerServices.ModelManagerError Code=1012 \"(null)\" UserInfo={NSMultipleUnderlyingErrorsKey=(\n)}"
+)} | pegada=2742 MB livre=3401 MB termico=0
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+The app terminated with the exit code 0.

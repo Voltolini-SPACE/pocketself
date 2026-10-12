@@ -1,0 +1,5 @@
+[neo-decide] treinado exemplos=154 T=3.20 ECE=0.120 acertoCV=0.58 em 17 ms
+[pocketself-bench] fim
+Launched application with io.github.voltolini-space.pocketself bundle identifier.
+Waiting for the application to terminate...
+App terminated due to signal 15.

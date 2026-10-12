@@ -1,0 +1,27 @@
+# Xcode / build
+.build/
+.build-device/
+DerivedData/
+*.xcodeproj/xcuserdata/
+xcuserdata/
+*.xcuserstate
+# Projetos Xcode são gerados do project.yml (xcodegen generate)
+*.xcodeproj/
+# Modelos e dados locais (nunca vão ao repositório)
+*.safetensors
+*.gguf
+*.mlpackage
+modelos/
+# Segredos e configuração local
+.env
+*.token
+*.xcconfig
+*.mobileprovision
+.DS_Store
+
+# Backups locais (modelos e dados do aparelho)
+backups/
+
+# Identidade do go-ios (chave privada de pareamento): nunca versionar
+selfIdentity.plist
+*.plist.bak
